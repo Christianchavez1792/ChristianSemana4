@@ -1,16 +1,20 @@
 body{
     margin: 0;
-    font-family: 'roboto', sans-serif;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f8f8f8bb;
 }
 
 .header{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
+    background-color: black;
+    height: 100px;
+    gap: 300px;
 }
 
 #LogoAndeaHeader {
-    width: 5%;
+    width: 50px;
     height: auto;
 }
 
@@ -25,7 +29,7 @@ body{
 
 
 .nav-list-item a{
-    color: black;
+    color: rgb(255, 255, 255);
     padding: 10px;
     text-decoration: none;
 }
@@ -33,47 +37,86 @@ body{
 .slider-img {
     width: 100%;
     height: 700px;
-    display: block;
-}
-
-.title-section{
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-h2{
-    font-size: 50px;
-    color: #333;
+    object-fit: cover;
 }
 
 .content-section{
+    margin-top: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .content-container {
     display: flex;
-    gap: 60px;
+    gap: 100px;
     max-width: 50%;
     justify-content: center;
-    align-items: center;
 }
 
 .text-content {
     max-width: 40%;
     font-size: 20px;
+    line-height: 1.5;
 }
+
+.text-title{
+    font-size: 40px;
+    color: #333;
+    margin-top: 0;
+}
+
 
 .image-content {
     max-width: 60%;
 }
 
-.sesion-usuario{
-    margin-top: 100px;
+.separador-section{
+    margin-top: 50px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: 300;
+    letter-spacing: 5px;
+    color: #a7a7a7;
+}
+
+.sesion-usuario{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    gap: 50px;
+}
+
+.title-section{
+    font-size: 25px;
+    color: #333;
+}
+
+.form-section{
+    width: 600px;
+}
+
+.form-section input {
+    width: 100%;
+    padding: 10px 0 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgba(122, 122, 122, 0.096);
+}
+
+.form-section button {
+    width: 30%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
