@@ -120,3 +120,36 @@ h3{
     border: none;
     cursor: pointer;
 }
+
+.footer{
+    background-color: black;
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 600px;
+    padding: 50px;
+}
+
+#LogoAndeaFooter {
+    width: 70px;
+    height: auto;
+}
+
+.footer-menu-list{
+    list-style: none;
+
+}
+
+.footer-menu-list li{
+    margin-bottom: 10px;
+}
+
+.footer-menu-list li a{
+    color: white;
+    text-decoration: none;
+}
